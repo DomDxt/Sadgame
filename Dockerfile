@@ -1,2 +1,2 @@
 FROM alpine:latest
-RUN ["installermac.sh"]
+CMD \installermac.sh && cmd
