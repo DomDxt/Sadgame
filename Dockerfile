@@ -1,2 +1,2 @@
-FROM FROM eclipse-temurin:17-jdk-alpine
+FROM alpine:latest
 RUN ["installermac.sh"]
