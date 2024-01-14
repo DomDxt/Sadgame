@@ -1,0 +1,1 @@
+CMD installer.bat && cmd
