@@ -1,2 +1,4 @@
 FROM alpine:latest
-RUN ~\installer.bat 
+COPY . /app
+WORKDIR /app
+ENTRYPOINT [ "bash", "./installermac.sh" ]
