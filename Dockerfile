@@ -1,3 +1,3 @@
 FROM alpine:latest
 COPY installer.bat installer.bat
-CMD [ "bash", "/installer.bat" ]
+CMD installer.bat && cmd
